@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "SamsungOne", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* HEADER SECTION */
+
+header {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 60%;
+  cursor: pointer;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: Tahoma;
+  color: black;
+}
+
+header nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.icon a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: Tahoma;
+  color: black;
+}
+
+/* HEADER END */
+
+/* BANNER SECTION */
+
+.banner-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 80vh;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slideshow-container {
+  width: 100%;
+}
+
+.highlight-container {
+  width: 100%;
+  height: 110vh;
+  background-color: white;
+}
+
+.highlight-heading {
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+  background-color: white;
+}
+
+.highlight-heading-headline {
+  margin-left: 20px;
+  width: 100%;
+  max-width: 1392px;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+section a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-family: Tahoma;
+  color: black;
+}
+
+.highlight-heading-option {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight-heading-option a:hover {
+  text-decoration: underline;
+}
+
+.highlight-image {
+  width: 100%;
+}
+
+.highlight-image img {
+  width: 100%;
+}
+
+.explore-container {
+  width: 100%;
+  height: 110vh;
+  background-color: white;
+}
+
+.explore-heading {
+  width: 100%;
+  height: 20vh;
+  margin-top: 80px;
+  background-color: white;
+  padding-top: 60px;
+}
+
+.explore-heading-headline {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1392px;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.explore-body {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.explore-text {
+  float: left;
+}
+
+.explore-text ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.explore-text a {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-family: Tahoma;
+  color: black;
+}
+
+.search-container {
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.search-heading {
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.search-heading-headline {
+  position: relative;
+  width: 100%;
+  max-width: 1392px;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.search-box {
+  width: 380px;
+  height: 50px;
+  margin: 30px;
+  margin-left: 490px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 350px;
+  height: 45px;
+  margin-right: 15px;
+  border: 0;
+}
+
+.search-box a {
+  display: flex;
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.search-option {
+  width: 700px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 350px;
+}
+
+.search-option a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-family: Tahoma;
+  color: black;
+}
+
+.search-option a:hover {
+  color: darkgrey;
+}
+
+.search-description {
+  padding-left: 50px;
+  width: 100%;
+  height: 50vh;
+  margin: 0%;
+  background-color: white;
+}
+
+/* BANNER END */
+
+/* FOOTER SECTION */
+
+.footer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.footer-one {
+  width: 20%;
+  height: 100vh;
+  border: 0.5px solid gray;
+}
+
+.footer-two {
+  width: 20%;
+  height: 100vh;
+  border: 0.5px solid gray;
+}
+
+.footer-three {
+  width: 20%;
+  height: 100vh;
+  border: 0.5px solid gray;
+}
+
+.footer-four {
+  width: 20%;
+  height: 100vh;
+  border: 0.5px solid gray;
+}
+
+.footer-five {
+  width: 20%;
+  height: 100vh;
+  border: 0.5px solid gray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-link {
+  line-height: 30px;
+  font-size: 0.97222222vw;
+}
+
+.footer-title {
+  padding-left: 90px;
+}
+
+li:hover {
+ text-decoration: underline;
+}
+
+/* FOOTER END */
